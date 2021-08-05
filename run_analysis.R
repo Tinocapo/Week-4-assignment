@@ -45,5 +45,5 @@ total$subject  <- as.factor(total$subject)
 total_mean <- total %>% group_by(activity, subject) %>% summarize_all(funs(mean)) 
 
 # export summary dataset
-write.table(total_mean, file = "./tidydata.txt",
+write.table(total_mean, file = "./tidydata.txt", 
             row.names = FALSE, col.names = TRUE)
