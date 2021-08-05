@@ -5,7 +5,7 @@ date: "8/5/2021"
 output: html_document
 ---
 
-tidydata.html contains the average of each variable for each activity and each subject 
+tidydata.txt contains the average of each variable for each activity and each subject 
 
 Description
 Data in dataset contains 180 rows and 68 columns for
